@@ -1,0 +1,43 @@
+
+.App-header {
+  background-color: #e1e4eb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Wrapper{
+background: rgb(64, 19, 226);
+padding: 10px;
+border-radius: 10%;
+box-shadow: #000;
+}
+
+.Input-wrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  align-items: center;
+}
+
+.Input-wrapper input{
+  border-radius: 4%;
+  border: 0;
+  background-color: white;
+  width: 160px;
+  padding: 6px;
+  height: 20px;
+}
+
+.Input-wrapper button{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 0;
+}
+
+
